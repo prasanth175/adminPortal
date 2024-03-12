@@ -28,6 +28,22 @@
   color: #61dafb;
 }
 
+button{
+  border: 0px;  
+}
+
+button:hover{
+  cursor: pointer;
+}
+
+input:focus{
+outline: none;
+}
+
+select:focus{
+  outline: none;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

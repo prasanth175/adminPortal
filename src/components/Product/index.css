@@ -1,0 +1,41 @@
+.products-container{
+    padding: 30px;
+}
+
+/* Top Container */
+
+.products-top-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.create-product-btn{
+    color: white;
+    padding: 10px 20px;
+    border-width: 0px;
+    border-radius: 5px;
+    background-color: rgb(122, 198, 122);
+}
+
+/* Filter Container */
+
+.filter-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.filter-right-container{
+    display: flex;
+    align-items: center;
+}
+
+/* Bottom Container */
+
+.products-bottom-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    justify-content: space-between;
+}
