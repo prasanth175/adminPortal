@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import './index.css'
 import ProductContext from '../../context/ProductContext'
 import { Link } from 'react-router-dom'
+import SideNavbar from '../SideNavbar'
 
 class AddProduct extends Component  {
     state = {
@@ -53,6 +54,8 @@ class AddProduct extends Component  {
                       }
 
                 return (
+                    <div className='common-container'>
+                        <SideNavbar />
                         <div className='add-product-container'>
             <div className='add-product-top-container'>
             <h1 className="add-book-heading">Add New Product</h1>
@@ -149,6 +152,7 @@ class AddProduct extends Component  {
               )} */}
             </form>
             </div>
+                    </div>
                     )
                 }}
             </ProductContext.Consumer>

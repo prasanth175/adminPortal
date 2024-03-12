@@ -4,6 +4,7 @@ import './index.css'
 import ProductItem from '../ProductItem';
 import ProductContext from '../../context/ProductContext';
 import { Link } from 'react-router-dom';
+import SideNavbar from '../SideNavbar';
 
 class Product extends Component {
 
@@ -109,6 +110,8 @@ class Product extends Component {
         const {productsList} = value
         console.log(productsList.productsList)
         return (
+            <div className='common-container'>
+            <SideNavbar />
             <div className='products-container'>
                 <div className='products-top-container'>
                     <h1 className='products-heading'>Products</h1>
@@ -134,6 +137,7 @@ class Product extends Component {
                     <ProductItem item={each} key={each.id} />
                 ))}
                 </ul>
+            </div>
             </div>
         )
 
