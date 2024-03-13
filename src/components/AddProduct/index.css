@@ -1,6 +1,8 @@
 .add-product-container {
+    width: 100%;
     padding: 30px;
     font-family: 'Roboto';
+    overflow-y: scroll;
   }
 
   .add-product-top-container{

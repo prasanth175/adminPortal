@@ -119,7 +119,7 @@ class Product extends Component {
                 </div>
 
                 <div className='filter-container'>
-                    <input type='search' placeholder='Search...' />
+                    <input className='search-filter' type='search' placeholder='Search...' />
 
                     <div className='filter-right-container'>
                     <select>
