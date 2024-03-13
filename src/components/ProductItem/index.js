@@ -10,7 +10,11 @@ const ProductItem = props => {
         return (
         <Link to={`/products/${id}`} className="Link">
             <li className="product-item">
+<<<<<<< HEAD
               <img src={Img} alt="product" className="thumbnail" />
+=======
+              <img src={Img} alt="product" className="thumbnail"/>
+>>>>>>> 74910ae (chagnes 123456)
               <h1 className="title">{MobileName}</h1>
               <p className="brand">by {Manufacturer}</p>
               <div className="product-details">

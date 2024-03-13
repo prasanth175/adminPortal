@@ -1,21 +1,49 @@
 
 
 .products-container{
+<<<<<<< HEAD
     width: 95%;
     padding: 30px;
     overflow-y: scroll;
 }
 
 /* Top Container */
+=======
+    width: 100%;
+    min-height: 100vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.products-heading{
+    font-family: sans-serif;
+        font-size: 24px;
+        width: 100%;
+        box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+        padding: 15px;
+}
+
+.products-sub-container{
+    min-width: 100vh;
+    overflow-y: scroll;
+    padding-left: 35px;
+}
+>>>>>>> 74910ae (chagnes 123456)
 
 .products-top-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
+<<<<<<< HEAD
+=======
+    padding-left: 35px;
+    padding-right: 35px;
+>>>>>>> 74910ae (chagnes 123456)
 }
 
 .create-product-btn{
     color: white;
+<<<<<<< HEAD
     padding: 10px 20px;
     border-width: 0px;
     border-radius: 5px;
@@ -23,6 +51,17 @@
 }
 
 /* Filter Container */
+=======
+    background-color: #3B82F6;;
+    padding: 10px 20px;
+    border-width: 0px;
+    border-radius: 5px;
+}
+
+.thumbnail{
+    width: 100%;
+}
+>>>>>>> 74910ae (chagnes 123456)
 
 .filter-container{
     display: flex;
@@ -34,8 +73,13 @@
     padding: 7px 10px;
     width: 35%;
     border-radius: 5px;
+<<<<<<< HEAD
     border-width: 0px;
     border-left: 5px solid rgb(137, 177, 77);
+=======
+    border-width: 1px;
+    border-left: 5px solid #3B82F6;
+>>>>>>> 74910ae (chagnes 123456)
 }
 
 .filter-right-container{
@@ -49,5 +93,8 @@
     display: flex;
     flex-wrap: wrap;
     padding-left: 0;
+<<<<<<< HEAD
     justify-content: space-between;
+=======
+>>>>>>> 74910ae (chagnes 123456)
 }

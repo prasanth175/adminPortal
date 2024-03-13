@@ -7,6 +7,7 @@ import { Link } from 'react-router-dom';
 import SideNavbar from '../SideNavbar';
 
 class Product extends Component {
+<<<<<<< HEAD
 
 //     productsData = [
 //     {
@@ -103,6 +104,8 @@ class Product extends Component {
 
     
 
+=======
+>>>>>>> 74910ae (chagnes 123456)
     render(){
         return (
             <ProductContext.Consumer>
@@ -112,6 +115,7 @@ class Product extends Component {
         return (
             <div className='common-container'>
             <SideNavbar />
+<<<<<<< HEAD
             <div className='products-container'>
                 <div className='products-top-container'>
                     <h1 className='products-heading'>Products</h1>
@@ -138,6 +142,33 @@ class Product extends Component {
                 ))}
                 </ul>
             </div>
+=======
+                <div className='products-container'>
+                    <h1 className='products-heading'>Products</h1>
+                    <div className='products-sub-container'>
+                        <div className='products-top-container'>
+                            <Link to='/addproduct'><button className='create-product-btn'>Create new</button></Link>
+                            <input className='search-filter' type='search' placeholder='Search...' />
+                        </div>
+                        {/* <div className='filter-container'>
+                            <div className='filter-right-container'>
+                                <select>
+                                    <option>All Category</option>
+                                </select>
+                                <select>
+                                    <option>Latest Added</option>
+                                </select>
+                            </div>
+                        </div> */}
+            
+                        <ul className='products-bottom-container'>
+                            {productsList.productsList.map(each => (
+                                <ProductItem item={each} key={each.id} />
+                            ))}
+                        </ul>
+                    </div>
+                </div>
+>>>>>>> 74910ae (chagnes 123456)
             </div>
         )
 
