@@ -2,15 +2,11 @@
     display: flex;
 }
 .dashboard-sub-container{
-<<<<<<< HEAD
-    width: 100%;
-=======
    width: 100%;
 }
 .dash-bg-container{
 min-height: 100vh;
     overflow-y: scroll;
->>>>>>> 74910ae (chagnes 123456)
 }
 .dashboard-heading{
     font-family: sans-serif;
@@ -82,11 +78,7 @@ min-height: 100vh;
     width: 85%;
 }
 
-<<<<<<< HEAD
-.products-heading {
-=======
 .products-managment-heading {
->>>>>>> 74910ae (chagnes 123456)
     font-size: 24px;
     font-family: sans-serif;
     margin-bottom: 20px;
@@ -104,11 +96,7 @@ min-height: 100vh;
 
 .products-table {
     border-collapse: collapse;
-<<<<<<< HEAD
-    width: 80%;
-=======
     width: 85%;
->>>>>>> 74910ae (chagnes 123456)
 }
 
 .table-header {
